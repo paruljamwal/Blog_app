@@ -1,0 +1,55 @@
+
+
+.Register{
+    /* calc(100vh-50px) */
+    height: 1000px;
+    margin-top: -250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+    background:linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)) , url("https://images.unsplash.com/photo-1494475673543-6a6a27143fc8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YmFja2dyb3VuZCUyMGltYWdlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60");
+}
+
+.registerTitle{
+    font-size: 50px;
+}
+
+.RegisterForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.RegisterForm >label{
+    margin: 10px 0;
+}
+.RegisterInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.RegisterButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.LoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
